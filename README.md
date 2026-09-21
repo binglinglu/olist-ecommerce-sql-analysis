@@ -27,6 +27,27 @@ A SQL-only portfolio project analyzing the [Brazilian E-Commerce Public Dataset 
 - Canceled orders (`order_status = 'canceled'`) are excluded from all revenue and customer metrics.
 - The dataset's first and last few months (2016-09 to 2016-12, and 2018-09) have incomplete data and are excluded from trend analysis; the analysis window is **2017-01 to 2018-08**.
 
+## Project Structure
+.
+├── 01_schema.sql
+├── 02_load.sql
+├── analysis1_monthly_sales_trend.sql
+├── analysis2_repeat_purchase_rate.sql
+├── analysis3_cohort_retention.sql
+├── analysis4_delivery_vs_review.sql
+├── analysis5_category_performance.sql
+├── images
+│   ├── dashboard.png
+│   └── ER.png
+├── models
+│   └── ER.mwb
+├── README.md
+└── results
+    ├── category_performance.csv
+    ├── delivery_vs_review.csv
+    ├── monthly_sales_trend.csv
+    └── repeat_purchase_distribution.csv
+
 ## Files
 
 | File | Description |
