@@ -5,7 +5,6 @@ A SQL-only portfolio project analyzing the [Brazilian E-Commerce Public Dataset 
 **Goal:** answer five business questions end-to-end — schema design, data cleaning, analysis, and visualization — using MySQL and Tableau.
 
 ## Tech Stack
-
 - **MySQL 9** (MySQL Workbench) — schema design, data loading, analysis queries
 - **Tableau Desktop** — dashboard
 - SQL techniques used: CTEs, multi-table JOINs, window functions (`LAG`, `RANK`, `DENSE_RANK`, `SUM() OVER`), conditional aggregation (`CASE WHEN`), date functions (`DATEDIFF`, `TIMESTAMPDIFF`, `DATE_FORMAT`)
@@ -72,4 +71,4 @@ No single category dominates — the top 10 of ~70+ categories account for ~62% 
 
 ## Author
 
-Ellie — M.S. Biomedical Engineering, Columbia University
+Bingling Lu
