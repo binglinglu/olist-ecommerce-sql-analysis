@@ -15,7 +15,7 @@ A SQL-only portfolio project analyzing the [Brazilian E-Commerce Public Dataset 
 
 ## Entity-Relationship Diagram
 
-![ER Diagram](images/er_diagram.png)
+![ER Diagram](images/ER.png)
 
 8 normalized tables: `customers`, `sellers`, `products`, `category_translation`, `orders`, `order_items`, `order_payments`, `order_reviews`. `orders` is the central fact table, linked to `order_items` (composite PK), `order_payments` (composite PK), and `order_reviews`. `order_items` links out to `products` and `sellers`.
 
